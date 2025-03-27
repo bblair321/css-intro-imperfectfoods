@@ -1,8 +1,17 @@
 /* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500&display=swap');
 /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color:#B4E4E6;
+    text-color: #453D3D;
+}
 
-/* COLORS */
-/* background color -> #B4E4E6 */
-/* text color -> #453D3D */
-/* button color -> #B32274 */
-/* button text color -> white */
+button {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    background-color: #832274;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
